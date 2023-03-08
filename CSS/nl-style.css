@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+.newsletter {
+    height: 150px;
+    /* background-color: aquamarine; */
+}
+.sign-up {
+    text-align: center;
+    padding: 30px 0 10px;
+}
+.sign-up-form {
+    max-width: fit-content;
+    margin: auto;
+}
+.col-nl-name {
+    float: left;
+    width: fit-content;
+    text-align: right;
+    background-color: lightsalmon;
+}
+.col-nl-email {
+    float: left;
+    width: fit-content;
+    background-color: lightgreen;
+}
+.col-nl-submit {
+    float: left;
+    width: fit-content;
+    background-color: pink;
+}
+.nl-name-input,
+.nl-email-input {
+    margin: 0 5px;
+    background: transparent;
+    color: black;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.sign-up-button {
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    background-color: blue;
+    color: white;
+}
